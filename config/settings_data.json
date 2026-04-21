@@ -8,5 +8,18 @@
  * ------------------------------------------------------------
  */
 {
-  "current": {}
+  "current": {
+    "type_primary_font": "mono",
+    "max_page_width": "110rem",
+    "min_page_margin": 10,
+    "background_color": "#ffffff",
+    "foreground_color": "#767676",
+    "input_corner_radius": 4,
+    "checkout_logo_position": "left",
+    "checkout_logo_size": "small",
+    "checkout_body_background_color": "#000000",
+    "checkout_input_background_color_mode": "white",
+    "checkout_heading_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "content_for_index": []
+  }
 }
