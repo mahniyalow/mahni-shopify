@@ -115,3 +115,9 @@ body {
 .shopify-section > .full-width {
   grid-column: 1 / -1;
 }
+header {
+postion:fixed;
+top: 0;
+left: 0;
+
+}
