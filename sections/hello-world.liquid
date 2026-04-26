@@ -3,13 +3,15 @@
   <img src="{{ 'mahnidance.png' | asset_url }}">
 </a>
 </div>
+{% stylesheet %}
+  css_styles
 
 {% if template contains 'hello-world' %}
 header a {
   color:orange;
 }
 {% endif %}
-
+{% endstylesheet %}
 {% schema %}
 {
   "name": "Hello World",
