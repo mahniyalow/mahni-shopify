@@ -4,14 +4,14 @@
 </a>
 </div>
 {% stylesheet %}
-  css_styles
+{% if template contains 'homepage' %}
 
-{% if template contains 'hello-world' %}
 header a {
   color:orange;
 }
 {% endif %}
 {% endstylesheet %}
+
 {% schema %}
 {
   "name": "Hello World",
