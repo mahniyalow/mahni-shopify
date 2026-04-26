@@ -6,7 +6,7 @@
 {% endcomment %}
 
 
-
+<main>
 <div class="collection-products">
   {% paginate collection.products by 20 %}
     {% for product in collection.products %}
@@ -31,15 +31,12 @@
     {{ paginate | default_pagination }}
   {% endpaginate %}
 </div>
-
+</main>
 {% stylesheet %}
-
-header {
-  color:green
-}
   .collection-products {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+    margin:
   }
 
 {% endstylesheet %}

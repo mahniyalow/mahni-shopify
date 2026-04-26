@@ -4,7 +4,7 @@
 
   https://shopify.dev/docs/storefronts/themes/architecture/templates/product
 {% endcomment %}
-
+<main>
 <div class="product-images">
   {% for image in product.images %}
     {% render 'image', class: 'product-image', image: image %}
@@ -40,7 +40,7 @@
     {{ form | payment_button }}
   {% endform %}
 </div>
-
+</main>
 {% schema %}
 {
   "name": "t:general.product",
