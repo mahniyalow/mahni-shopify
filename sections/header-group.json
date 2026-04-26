@@ -13,9 +13,7 @@
   "sections": {
     "header": {
       "type": "header",
-      "custom_css": [
-        ":root {--color-foreground:red;}"
-      ],
+      "custom_css": [],
       "settings": {
         "menu": "",
         "customer_account_menu": "main-menu"
