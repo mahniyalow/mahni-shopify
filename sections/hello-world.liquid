@@ -3,14 +3,17 @@
   <img src="{{ 'mahnidance.png' | asset_url }}">
 </a>
 </div>
-{% stylesheet %}
+
 {% if template.name == 'index' %}
+{%  style %}
+  
 
 header a {
   color:orange;
 }
+{% endstyle %}
 {% endif %}
-{% endstylesheet %}
+
 
 {% schema %}
 {
