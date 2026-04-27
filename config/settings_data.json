@@ -10,7 +10,7 @@
 {
   "current": {
     "type_primary_font": "archivo_n3",
-    "max_page_width": "110rem",
+    "max_page_width": "90rem",
     "min_page_margin": 10,
     "background_color": "#ffffff",
     "foreground_color": "#000000",
@@ -20,6 +20,9 @@
     "checkout_body_background_color": "#000000",
     "checkout_input_background_color_mode": "white",
     "checkout_heading_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "checkout_accent_color": "#000000",
+    "checkout_button_color": "#878787",
+    "checkout_error_color": "#000000",
     "content_for_index": []
   }
 }
