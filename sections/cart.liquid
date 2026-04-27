@@ -4,7 +4,7 @@
 
   https://shopify.dev/docs/storefronts/themes/architecture/templates/cart
 {% endcomment %}
-
+<main>
 <h1>{{ 'cart.title' | t }}</h1>
 
 <form action="{{ routes.cart_url }}" method="post">
@@ -28,7 +28,7 @@
 
   <input type="submit" name="checkout" value="{{ 'cart.checkout' | t }}">
 </form>
-
+</main>
 {% schema %}
 {
   "name": "t:general.cart",
