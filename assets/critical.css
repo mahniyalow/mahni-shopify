@@ -130,3 +130,8 @@ main {
 
   margin-top: 70px;
 }
+
+.header__title svg{
+width:500px;
+padding:10px;
+}
