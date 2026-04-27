@@ -3,7 +3,7 @@
 /* Reset styles inspired by https://www.joshwcomeau.com/css/custom-css-reset/ */
 * {
   box-sizing: border-box;
-  margin: 
+  margin: 0;
 }
 
 body {
@@ -135,4 +135,7 @@ main {
 width:200px;
 padding: 10px
 
+.image>img {
+ 
+}
 }
